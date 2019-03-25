@@ -1,0 +1,18 @@
+
+apply plugin: 'com.android.instantapp'
+
+android {
+    compileSdkVersion rootProject.compileSdk
+
+    defaultConfig {}
+    buildTypes {
+        minified {}
+        debug {}
+    }
+}
+
+dependencies {
+    implementation project(':features:hello')
+    implementation project(':features:bye')
+    implementation project(':features:base')
+}

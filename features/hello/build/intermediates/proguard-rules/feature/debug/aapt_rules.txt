@@ -1,0 +1,2 @@
+# Referenced at /Users/martin/Tesis/instant-example/features/hello/build/intermediates/merged_manifests/debugFeature/processDebugFeatureManifest/merged/AndroidManifest.xml:14
+-keep class com.martin.feature.hello.HelloActivity { <init>(...); }

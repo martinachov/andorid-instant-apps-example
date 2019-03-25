@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:5:5-27:19
+activity#com.martin.feature.bye.GoodbyeActivity
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:7:9-26:20
+	android:label
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:9:13-59
+	android:theme
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:10:13-44
+	android:name
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:8:13-44
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:martinachov.github.io+data:pathPrefix:/goodbye+data:scheme:http+data:scheme:https
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:12:13-24:29
+	android:autoVerify
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:13:17-42
+	android:order
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:12:28-45
+action#android.intent.action.VIEW
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:16:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:17:17-78
+	android:name
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:17:27-75
+data
+ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:19:17-48
+	android:host
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:21:23-59
+	android:scheme
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:19:23-45
+	android:pathPrefix
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml:22:23-52
+uses-sdk
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+		ADDED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml
+		INJECTED from /Users/martin/Tesis/instant-example/features/bye/src/main/AndroidManifest.xml

@@ -1,0 +1,35 @@
+
+apply plugin: 'com.android.feature'
+
+android {
+    compileSdkVersion rootProject.compileSdk
+    defaultConfig {
+        minSdkVersion rootProject.minSdk
+        targetSdkVersion rootProject.compileSdk
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+
+    // Switch between test types by swapping commented out state
+    testBuildType /* 'debug' */  'minified'
+
+    buildTypes {
+        minified {
+            debuggable true
+            signingConfig signingConfigs.debug
+        }
+        debug {}
+    }
+}
+
+dependencies {
+    implementation project(':features:base')
+
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$espressoVersion"
+    androidTestImplementation "com.android.support.test:rules:$androidTestVersion"
+    androidTestImplementation "com.android.support.test:runner:$androidTestVersion"
+    androidTestImplementation "org.hamcrest:hamcrest-core:$hamcrestVersion"
+}

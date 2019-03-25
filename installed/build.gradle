@@ -1,0 +1,30 @@
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.compileSdk
+
+    defaultConfig {
+        applicationId "com.martin.instantexample"
+        minSdkVersion rootProject.minSdk
+        targetSdkVersion rootProject.compileSdk
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+    }
+
+    // Switch between test types by swapping commented out state
+    testBuildType /* 'debug' */  'minified'
+
+    buildTypes {
+        minified {
+            debuggable true
+            minifyEnabled true
+        }
+        debug {}
+    }
+}
+
+dependencies {
+    implementation project(":features:hello")
+    implementation project(":features:bye")
+}

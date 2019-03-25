@@ -1,0 +1,2 @@
+# Referenced at /Users/martin/Tesis/instant-example/features/bye/build/intermediates/merged_manifests/releaseFeature/processReleaseFeatureManifest/merged/AndroidManifest.xml:14
+-keep class com.martin.feature.bye.GoodbyeActivity { <init>(...); }

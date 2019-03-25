@@ -1,0 +1,4 @@
+#Fri Mar 15 13:14:52 ART 2019
+base.0=/Users/martin/Tesis/instant-example/installed/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

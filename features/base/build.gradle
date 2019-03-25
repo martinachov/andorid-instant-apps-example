@@ -1,0 +1,37 @@
+
+apply plugin: 'com.android.feature'
+
+android {
+    compileSdkVersion rootProject.compileSdk
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdk
+        targetSdkVersion rootProject.compileSdk
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+
+    // Switch between test types by swapping commented out state
+    testBuildType /* 'debug' */  'minified'
+
+    buildTypes {
+        minified {
+            debuggable true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), '../../proguard.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {}
+    }
+
+    baseFeature true
+}
+
+dependencies {
+    application project(":installed")
+    feature project(':features:bye')
+    feature project(':features:hello')
+    api "com.android.support:appcompat-v7:$supportLib"
+}

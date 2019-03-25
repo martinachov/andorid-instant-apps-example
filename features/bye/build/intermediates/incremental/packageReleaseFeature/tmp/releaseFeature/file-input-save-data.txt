@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Mar 20 20:02:23 ART 2019
+0.baseType=DIRECTORY
+0.base=/Users/martin/Tesis/instant-example/features/bye/build/intermediates/transforms/dexMerger/feature/release/0
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.martin.feature.base",
+    "sha256_cert_fingerprints":
+    ["2A:C6:65:BD:3F:87:60:1D:8D:D3:C3:F4:D7:8F:95:7A:DF:3A:9B:A2:26:2B:2F:42:3C:E2:DA:8B:43:3C:EA:B7"]
+  }
+}]

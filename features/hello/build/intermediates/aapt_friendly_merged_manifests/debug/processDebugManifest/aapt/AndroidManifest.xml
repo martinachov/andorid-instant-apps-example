@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.martin.feature.hello"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <application>
+        <activity
+            android:name="com.martin.feature.hello.HelloActivity"
+            android:label="@string/title_activity_hello"
+            android:theme="@style/AppTheme" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="default-url"
+                android:value="https://martinachov.github.io" />
+
+            <intent-filter
+                android:autoVerify="true"
+                android:order="2" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="martinachov.github.io"
+                    android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:pathPrefix="/hello" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
